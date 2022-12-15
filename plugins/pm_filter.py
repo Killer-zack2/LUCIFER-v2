@@ -457,9 +457,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             [
                          [
                           InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ', url=CHNL_LNK),
-                          InlineKeyboardButton('ᴍᴏᴠɪᴇɢʀᴏᴜᴘ', url="https://t.me/at3movies")
+                          InlineKeyboardButton('ᴍᴏᴠɪᴇɢʀᴏᴜᴘ', url="https://t.me/MOVIE_MANIAC007")
                        ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/aboutexinos")
+                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/LUCIFER_SUPPORT")
                          ]
                         ]
                     )
@@ -505,9 +505,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                          [
                           InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ', url=CHNL_LNK),
-                          InlineKeyboardButton('ᴍᴏᴠɪᴇɢʀᴏᴜᴘ', url="https://t.me/at3movies")
+                          InlineKeyboardButton('ᴍᴏᴠɪᴇɢʀᴏᴜᴘ', url="https://t.me/MOVIE_MANIAC007")
                        ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/aboutexinos")
+                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/LUCIFER_SUPPORT")
                          ]
                         ]
                     )
@@ -865,7 +865,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('ᴅᴇᴠᴏʟᴏᴘᴇʀ', url='https://t.me/aboutexinos'),
+            InlineKeyboardButton('ᴅᴇᴠᴏʟᴏᴘᴇʀ', url='https://t.me/LUCIFER_SUPPORT'),
             InlineKeyboardButton('sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​', callback_data='source')
         ],[
             InlineKeyboardButton('𝐇𝐨𝐦𝐞', callback_data='start'),
@@ -1056,7 +1056,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("☎️Cᴏɴᴛᴀᴄᴛ☎️", url="t.me/LUTTAPPIxTG")
+                    InlineKeyboardButton("☎️Cᴏɴᴛᴀᴄᴛ☎️", url="t.me/LUCIFER_SUPPORT")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
