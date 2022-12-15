@@ -47,8 +47,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/bots_supported')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MyBotzzupdate')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/LUCIFER_support')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/LUCIFER_Updates')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'bots_supported')
