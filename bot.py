@@ -1,5 +1,7 @@
 import logging
 import logging.config
+import os
+import requests
 
 # Get logging configurations
 logging.config.fileConfig('logging.conf')
@@ -20,6 +22,14 @@ from datetime import date, datetime
 import pytz
 from aiohttp import web
 from plugins import web_server
+from dotenv import load_dotenv
+from pyrogram import Client, filters
+
+
+load_dotenv()
+
+REMOVEBG_API = os.environ.get("REMOVEBG_API", "")
+UNSCREEN_API = os.environ.get("UNSCREEN_API", "")
 
 class Bot(Client):
 
