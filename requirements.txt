@@ -10,3 +10,5 @@ cinemagoer
 datetime
 pytz
 aiohttp
+pyrogram
+python-dotenv
