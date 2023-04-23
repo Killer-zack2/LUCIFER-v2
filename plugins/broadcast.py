@@ -13,7 +13,7 @@ async def verupikkals(bot, message):
     users = await db.get_all_users()
     b_msg = message.reply_to_message
     sts = await message.reply_text(
-        text='𝐻𝑒𝑦 𝑏𝑟𝑢ℎ 𝑤𝑎𝑖𝑡 i'm Broadcasting your messages...'
+        text='Broadcasting your messages...'
     )
     start_time = time.time()
     total_users = await db.total_users_count()
@@ -46,7 +46,7 @@ async def grp_brodcst(bot, message):
     chats = await db.get_all_chats()
     b_msg = message.reply_to_message
     sts = await message.reply_text(
-        text='𝑯𝒆𝒚 𝒃𝒓𝒖𝒉, i'm Broadcasting your messages...'
+        text='Broadcasting your messages...'
     )
     start_time = time.time()
     total_chats = await db.total_chat_count()
