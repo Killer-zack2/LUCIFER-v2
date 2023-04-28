@@ -49,7 +49,7 @@ async def start(client, message):
                     InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭', callback_data='about'),
                  ]] 
         reply_markup = InlineKeyboardMarkup(buttons)      
-        m=await message.reply_sticker("CAACAgIAAxkBAAEVB5lkShgPKaRvg_OB8cdVka1mW5LKiwACeBEAAvOz2Up9EgJ1A6-HOi8E")
+        m=await message.reply_sticker("CAACAgUAAxkBAAEVCkdkSzXcBZU5W6ZWdpyBGydS_9edGAACGAADcLU4MweYKTwLeaMQLwQ")
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -98,7 +98,7 @@ async def start(client, message):
                     InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭', callback_data='about'),
                  ]] 
         reply_markup = InlineKeyboardMarkup(buttons)      
-        m=await message.reply_sticker("CAACAgIAAxkBAAEVB5lkShgPKaRvg_OB8cdVka1mW5LKiwACeBEAAvOz2Up9EgJ1A6-HOi8E")
+        m=await message.reply_sticker("CAACAgUAAxkBAAEVCkdkSzXcBZU5W6ZWdpyBGydS_9edGAACGAADcLU4MweYKTwLeaMQLwQ")
         await asyncio.sleep(1)
         await m.delete()     
         await message.reply_photo(
