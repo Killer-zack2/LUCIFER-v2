@@ -717,7 +717,3 @@ async def send_msg(bot, message):
             await message.reply_text(f"<b>Error: {e}</b>")
     else:
         await message.reply_text("<b>Use this command as a reply to any message using the target chat id. For eg: /send userid</b>")
-
-@Client.on_message(filters.command("joke")
-async def joke(bot, message):
-    message.reply_text("<b>There is no jokes for you 🤣🙈</b>")
