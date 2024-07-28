@@ -133,7 +133,7 @@
 <details><summary>Deploy To Koyeb</summary>
 <b>The fastest way to deploy the application is to click the Deploy to Koyeb button below.</b>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Localusersbot/DQ-the-file-donor&branch=koyeb&name=dqthefiledonor)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Akbotmakersnew/LUCIFER-v2&branch=koyeb&name=lucifer-v2)
 </details>
 
 <details><summary>Deploy To VPS</summary>
