@@ -6,7 +6,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /koyeb
-WORKDIR /koyeb
+RUN mkdir /LUCIFER-v2
+WORKDIR /LUCIFER-v2
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
