@@ -48,10 +48,7 @@ async def start(client, message):
                     InlineKeyboardButton('𝐇𝐞𝐥𝐩', callback_data='help'),
                     InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭', callback_data='about'),
                  ]] 
-        reply_markup = InlineKeyboardMarkup(buttons)      
-        m=await message.reply_sticker("CAACAgUAAxkBAAEVCkdkSzXcBZU5W6ZWdpyBGydS_9edGAACGAADcLU4MweYKTwLeaMQLwQ")
-        await asyncio.sleep(1)
-        await m.delete()
+        reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -97,10 +94,7 @@ async def start(client, message):
                     InlineKeyboardButton('𝐇𝐞𝐥𝐩', callback_data='help'),
                     InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭', callback_data='about'),
                  ]] 
-        reply_markup = InlineKeyboardMarkup(buttons)      
-        m=await message.reply_sticker("CAACAgUAAxkBAAEVCkdkSzXcBZU5W6ZWdpyBGydS_9edGAACGAADcLU4MweYKTwLeaMQLwQ")
-        await asyncio.sleep(1)
-        await m.delete()     
+        reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -240,7 +234,7 @@ async def start(client, message):
                     [
                          [
                           InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ', url=CHNL_LNK),
-                          InlineKeyboardButton('ᴍᴏᴠɪᴇɢʀᴏᴜᴘ', url="https://t.me/MOVIE_MANIAC")
+                          InlineKeyboardButton('ᴍᴏᴠɪᴇɢʀᴏᴜᴘ', url="https://t.me/MOVIE_MANIAC007")
                        ],[
                           InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/LUCIFER_SUPPORT")
                          ]
@@ -283,7 +277,7 @@ async def start(client, message):
             [
                          [
                           InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ', url=CHNL_LNK),
-                          InlineKeyboardButton('ᴍᴏᴠɪᴇɢʀᴏᴜᴘ', url="https://t.me/MOVIE_MANIAC")
+                          InlineKeyboardButton('ᴍᴏᴠɪᴇɢʀᴏᴜᴘ', url="https://t.me/MOVIE_MANIAC007")
                        ],[
                           InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/LUCIFER_SUPPORT")
                          ]
