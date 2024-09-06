@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⚚Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('Bᴏᴛ Oᴡɴᴇʀ', url="https://t.me/LUCIFER_SUPPORT"),
+                    InlineKeyboardButton('Bᴏᴛ Oᴡɴᴇʀ', url="https://t.me/iam_eldro"),
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
                ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -42,7 +42,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⚚Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('Bᴏᴛ Oᴡɴᴇʀ', url=f"https://t.me/LUCIFER_SUPPORT"),
+                    InlineKeyboardButton('Bᴏᴛ Oᴡɴᴇʀ', url=f"https://t.me/iam_eldro"),
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('𝐇𝐞𝐥𝐩', callback_data='help'),
@@ -88,7 +88,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⚚Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('Bᴏᴛ Oᴡɴᴇʀ', url=f"https://t.me/LUCIFER_SUPPORT"),
+                    InlineKeyboardButton('Bᴏᴛ Oᴡɴᴇʀ', url=f"https://t.me/iam_eldro"),
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('𝐇𝐞𝐥𝐩', callback_data='help'),
@@ -146,7 +146,7 @@ async def start(client, message):
                           InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ', url=CHNL_LNK),
                           InlineKeyboardButton('ᴍᴏᴠɪᴇɢʀᴏᴜᴘ', url="https://t.me/MOVIE_MANIAC007")
                        ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/LUCIFER_SUPPORT")
+                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/iam_eldro")
                          ]
                         ]
                     )
@@ -165,7 +165,7 @@ async def start(client, message):
                           InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ', url=CHNL_LNK),
                           InlineKeyboardButton('ᴍᴏᴠɪᴇɢʀᴏᴜᴘ', url="https://t.me/MOVIE_MANIAC007")
                        ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/LUCIFER_SUPPORT")
+                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/iam_eldro")
                          ]
                         ]
                     )
@@ -236,7 +236,7 @@ async def start(client, message):
                           InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ', url=CHNL_LNK),
                           InlineKeyboardButton('ᴍᴏᴠɪᴇɢʀᴏᴜᴘ', url="https://t.me/MOVIE_MANIAC007")
                        ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/LUCIFER_SUPPORT")
+                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/iam_eldro")
                          ]
                         ]
                     )
@@ -279,7 +279,7 @@ async def start(client, message):
                           InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ', url=CHNL_LNK),
                           InlineKeyboardButton('ᴍᴏᴠɪᴇɢʀᴏᴜᴘ', url="https://t.me/MOVIE_MANIAC007")
                        ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/LUCIFER_SUPPORT")
+                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/iam_eldro")
                          ]
                         ]
                     )
