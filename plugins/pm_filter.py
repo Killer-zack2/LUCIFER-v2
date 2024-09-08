@@ -60,7 +60,7 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text("<b>𝚁𝚎𝚚𝚞𝚎𝚜𝚝 𝙾𝚗 𝙾𝚞𝚛 𝙼𝚘𝚟𝚒𝚎 𝙶𝚛𝚘𝚞𝚙 @at3movies</b>")
+    await message.reply_text("<b>𝚁𝚎𝚚𝚞𝚎𝚜𝚝 𝙾𝚗 𝙾𝚞𝚛 𝙼𝚘𝚟𝚒𝚎 𝙶𝚛𝚘𝚞𝚙 @Movie_Maniac007</b>")
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
