@@ -154,9 +154,9 @@ Nᴀᴍᴇ - {}"""
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : MR ELDRO
-• ᴜꜱᴇʀɴᴀᴍᴇ : @IAM_ELDRO
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/IAM_ELDRO'>CLICK HERE</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : killer-zack
+• ᴜꜱᴇʀɴᴀᴍᴇ : @minimohanan
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/minimohanan'>CLICK HERE</a></b>"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
